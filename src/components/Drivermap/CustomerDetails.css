@@ -1,0 +1,96 @@
+.btn-accept, .btn-decline {
+    border: 2px solid var(--info);
+    border-radius: 100px;
+    /* background: linear-gradient(145deg, #eef3fc, #dce3f0); */
+    color: var(--info);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-accept:hover, .btn-decline:hover {
+    background: var(--info);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-accept {
+    border-color: var(--success);
+    color: var(--success);
+  }
+  
+  .btn-accept:hover {
+    background: var(--success);
+  }
+  
+  .btn-decline {
+    border-color: var(--danger);
+    color: var(--danger);
+  }
+  
+  .btn-decline:hover {
+    background: var(--danger);
+  }
+  
+  :root {
+    --info: #17a2b8;
+    --success: #28a745;
+    --danger: #17a2b8;
+  }
+  /* more for all info */
+  .customer-info {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .customer-info h6 {
+    margin-bottom: 5px;
+  }
+  
+  .customer-info p {
+    margin-bottom: 10px;
+  }
+  
+  .customer-info .mb-2 {
+    margin-bottom: 10px;
+  }
+  
+  .customer-info .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  .customer-info .text-success {
+    color: #28a745; /* Green color for 'From' */
+  }
+  
+  .customer-info .text-danger {
+    color: #dc3545; /* Red color for 'To' */
+  }
+  
+  .customer-info .text-info {
+    color: #17a2b8; /* Blue color for 'To Pick Up' and 'Trip distance' */
+  }
+  .btn-primary.disabled, .btn-primary:disabled {
+    background-color: #007bff; /* Keep the primary color */
+    border-color: #007bff;
+    opacity: 0.65; /* Adjust opacity for the disabled state */
+  }
+  
+  .btn-primary.disabled .small, .btn-primary:disabled .small {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+    text-align: center; /* Center the text */
+    display: inline-block;
+    width: 100%; /* Make sure it takes the full width */
+  }
+  
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ensure button takes full width */
+    height: 40px; /* Adjust the height if needed */
+  }
+  /* //////////// */
+  
+  

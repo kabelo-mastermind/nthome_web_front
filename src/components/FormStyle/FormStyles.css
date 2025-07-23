@@ -1,0 +1,104 @@
+label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    max-width: 600px; /* Increase max-width */
+    padding: 40px; /* Increase padding */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  Optional: Add box-shadow for a shadow effect */
+}
+
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #000;
+
+    .form input[type="email"],
+    .form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+}
+
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #126C83;
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 50px;
+    margin-bottom: -10px;
+
+ 
+}
+
+.button:hover,
+.button:active {
+    background-color: #40a2bb;
+}
+
+.link {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 50px;
+    margin-bottom: -10px;
+    text-align: center;
+    margin-top: 10px;
+
+   
+      
+}
+
+.link:hover,
+.link:active {
+    background-color: #22b5da;
+}
+
+
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+
+ 
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

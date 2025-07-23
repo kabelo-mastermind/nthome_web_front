@@ -1,0 +1,76 @@
+
+/* add styels */
+
+.py-4.shadow-lg.rounded.bg-light {
+  padding: 10px;
+}
+/* =============car list item========== */
+.car-info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* Add some spacing between elements */
+  margin-top: 0.625rem; /* Equivalent to 10px */
+}
+
+.car-details {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Equivalent to 12px */
+}
+
+.car-image {
+  width: 2.5rem; /* Equivalent to 40px */
+  height: 2.5rem; /* Equivalent to 40px */
+}
+
+.car-desc {
+  background-color: #32a4c0; /* Background color */
+  border-radius: 8px;
+  text-align: center;
+  margin: 0; /* Add border radius for rounded corners */
+}
+
+.car-price {
+  text-align: right; /* Align price and time to the right */
+}
+
+.car-name-seat {
+  display: flex;
+  align-items: baseline; /* Align name and seat on the baseline */
+}
+
+.car-name {
+  font-weight: bold; /* Make the name bold */
+  padding-right: 0.5rem; /* Add some space between name and seat */
+}
+
+.car-seat {
+  color: #666; /* Adjust seat color for better readability */
+}
+.seat-icon,.car-clock{
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .car-info-container {
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  .row-map{
+    flex-direction:column-reverse
+  }
+
+  .car-details {
+    flex-basis: 50%; /* Half width for larger screens */
+    flex-direction: column;
+  }
+
+}
+
+
+
+   if (!validateForm()) {
+            toast.error("Please correct the errors in the form.");
+            return;
+        }
+  

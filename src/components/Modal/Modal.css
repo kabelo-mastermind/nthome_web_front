@@ -1,0 +1,117 @@
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 1.5rem 2rem;
+}
+
+.modal-title {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.btn-close {
+  /* background: transparent; */
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+  opacity: 1;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-pic {
+  width: 250px; /* Fixed size for profile picture */
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+  }
+
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .modal-header,
+  .modal-body {
+    padding: 1rem;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+}
+
+.female-border .profile-pic {
+  border: 3px solid rgb(241, 44, 77);
+}
+
+.female-bg {
+  background-color: pink;
+}
+
+/* .female-title {
+  color: pink; You can use a specific hex code if you prefer a certain shade */
+
+  .female-header {
+    background-color: rgb(241, 44, 77); /* You can adjust the shade of pink using a specific hex code */
+  }
+
+  .female-body {
+    background-color: pink; /* Adjust the shade of pink as needed */
+  }
+  
+  

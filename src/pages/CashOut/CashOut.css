@@ -1,0 +1,107 @@
+.cashout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.cashout-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+
+.cashout-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.total-earnings {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.cashout-input-section,
+.cashout-card-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input {
+  padding: 0.6rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.currency-symbol {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  font-weight: bold;
+}
+
+.cashout-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+input[type="text"] {
+  padding-left: 25px; /* Add padding to accommodate currency symbol */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cashout-submit-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.cashout-error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cashout-add-card-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cashout-add-card-btn {
+  background-color: #28a745;
+  padding: 10px 20px;
+}
+
+.cashout-card-details h2 {
+  margin-bottom: 1rem;
+}
+
+.cashout-pay-btn {
+  background-color: #f39c12;
+  width: 100%;
+}

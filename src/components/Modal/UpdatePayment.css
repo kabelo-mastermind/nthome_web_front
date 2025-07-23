@@ -1,0 +1,89 @@
+/* General styles for the modal overlay */
+.update-payment-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+/* Styles for the modal content */
+.update-payment-modal-content {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    animation: update-payment-fadeIn 0.3s ease;
+}
+  
+/* Header styles */
+.update-payment-modal-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+/* Button styles */
+.update-payment-modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+.update-payment-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.update-payment-btn-confirm {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+  
+.update-payment-btn-confirm:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+  
+.update-payment-btn-cancel {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+  
+.update-payment-btn-cancel:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+  
+.update-payment-btn-close {
+    background-color: #2196F3; /* Blue */
+    color: white;
+}
+  
+.update-payment-btn-close:hover {
+    background-color: #1976D2;
+    transform: scale(1.05);
+}
+  
+/* Animation for modal */
+@keyframes update-payment-fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

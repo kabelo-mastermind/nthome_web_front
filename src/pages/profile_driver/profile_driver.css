@@ -1,0 +1,11 @@
+.edit-icon {
+    font-size: 20px; /* Adjust the size of the icon */
+    color: #007bff; /* Change the color to a blue shade */
+    transition: transform 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.edit-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
